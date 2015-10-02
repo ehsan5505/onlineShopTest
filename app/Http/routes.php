@@ -28,7 +28,7 @@ Route::get('/main',function(){
 });
 
 Route::get('/pagination',function(){
-	return view('pagination');
+	return view('sample/pagination2');
 });
 
 Route::get('product',function(){
